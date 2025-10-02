@@ -34,8 +34,8 @@ This project is a Vue 3 + Bootstrap application that displays a list of resource
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
-   cd <your-project-folder>
+   git clone https://github.com/natetjen/JnA_assessment.git
+   cd ./JnA_assessment/JnA_assessment
    npm install
    npm run dev
    (the application will run on http://localhost:5173/)
