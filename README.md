@@ -44,3 +44,14 @@ This project is a Vue 3 + Bootstrap application that displays a list of resource
 Data is mock data from mockData.js.
 
 No backend/API integration is required.
+
+Display
+<img width="1531" height="876" alt="Screenshot 2025-10-02 at 4 05 39 AM" src="https://github.com/user-attachments/assets/bcd97627-a856-4d30-9482-98823a0f44ac" />
+<img width="910" height="317" alt="Screenshot 2025-10-02 at 4 06 13 AM" src="https://github.com/user-attachments/assets/717e3add-6fa8-4cb1-8ba9-9deee1784c7f" />
+<img width="1452" height="814" alt="Screenshot 2025-10-02 at 4 06 39 AM" src="https://github.com/user-attachments/assets/c9806eb9-73bf-4fc7-9752-edf9fb1dcdb9" />
+<img width="1487" height="934" alt="Screenshot 2025-10-02 at 4 07 07 AM" src="https://github.com/user-attachments/assets/271de6f4-ccd4-40fb-9f4f-2fc54847985a" />
+
+
+
+s:
+
