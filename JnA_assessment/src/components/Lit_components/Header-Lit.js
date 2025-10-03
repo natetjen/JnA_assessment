@@ -24,6 +24,7 @@ export class HeaderLit extends LitElement {
 
   static styles = css`
     .header {
+      margin-left:1rem;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
@@ -34,6 +35,7 @@ export class HeaderLit extends LitElement {
     .header-text {
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
     }
 
     .header-title {
@@ -71,6 +73,7 @@ export class HeaderLit extends LitElement {
     }
     @media (max-width: 768px) {
       .header {
+        align-items: center;
         display: flex;
         flex-direction: column;
         gap: 0.5rem;

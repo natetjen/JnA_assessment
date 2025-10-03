@@ -139,12 +139,13 @@ const handleBookmark = (event) => {
 }
 
 .wrap2 {
-  width: 69.3%;
+  width: 90%;
   max-width: 1500px;
 }
 
 .filter_div_lit {
   gap: 1rem;
+  margin-left: 1rem;
 }
 
 .show-more-container {
@@ -196,6 +197,10 @@ const handleBookmark = (event) => {
   .card-grid {
   max-height: calc(100vh - 50%);
   overflow-y:auto;
+}
+.filter_div_lit {
+  gap: 1rem;
+  margin-left: 0rem;
 }
  }
 
