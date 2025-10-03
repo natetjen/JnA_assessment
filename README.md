@@ -33,10 +33,10 @@ This project is a Vue 3 + Bootstrap application that displays a list of resource
 
 ## About the Test
 This project uses Vitest for testing. Tests cover all reusable components and functionality:
--Hover states for interactive buttons
--Bookmark toggle behavior
--Filter functionality (single-selection assumption)
--Show More / Show Less functionality
+- Hover states for interactive buttons
+- Bookmark toggle behavior
+- Filter functionality (single-selection assumption)
+- Show More / Show Less functionality
 
 ## About Reusable Components
 All reusable components are made using Lit
@@ -49,6 +49,12 @@ All reusable components are made using Lit
 ## Setup & Run
 ❗ **Important:** Make sure to use Node,js v22
 
+Displays:
+<img width="1628" height="835" alt="Screenshot 2025-10-03 at 1 48 33 AM" src="https://github.com/user-attachments/assets/a6645cab-b3c8-467a-aeed-a3da736d3ed7" />
+<img width="904" height="577" alt="Screenshot 2025-10-03 at 1 48 56 AM" src="https://github.com/user-attachments/assets/2f452c84-dfd4-4fe5-8e41-78a2b4f4b0c5" />
+<img width="1460" height="750" alt="Screenshot 2025-10-03 at 1 49 45 AM" src="https://github.com/user-attachments/assets/05584785-eda1-4b8c-bd74-6d0c5c945427" />
+<img width="506" height="871" alt="Screenshot 2025-10-03 at 1 54 32 AM" src="https://github.com/user-attachments/assets/4a6ed56f-9fd5-4ecd-a322-0a5435404cb3" />
+
 *How to run the application*
    ```bash
    git clone https://github.com/natetjen/JnA_assessment.git
@@ -60,13 +66,6 @@ All reusable components are made using Lit
 *How to run the test*
   cd ./JnA_assessment/JnA_assessment
   npm run test
-
-Displays:
-<img width="1531" height="876" alt="Screenshot 2025-10-02 at 4 05 39 AM" src="https://github.com/user-attachments/assets/bcd97627-a856-4d30-9482-98823a0f44ac" />
-<img width="910" height="317" alt="Screenshot 2025-10-02 at 4 06 13 AM" src="https://github.com/user-attachments/assets/717e3add-6fa8-4cb1-8ba9-9deee1784c7f" />
-<img width="1452" height="814" alt="Screenshot 2025-10-02 at 4 06 39 AM" src="https://github.com/user-attachments/assets/c9806eb9-73bf-4fc7-9752-edf9fb1dcdb9" />
-<img width="1487" height="934" alt="Screenshot 2025-10-02 at 4 07 07 AM" src="https://github.com/user-attachments/assets/271de6f4-ccd4-40fb-9f4f-2fc54847985a" />
-<img width="938" height="973" alt="Screenshot 2025-10-02 at 4 14 20 AM" src="https://github.com/user-attachments/assets/4f303a73-d306-44e3-9e79-9bec8a849651" />
 
 
 
