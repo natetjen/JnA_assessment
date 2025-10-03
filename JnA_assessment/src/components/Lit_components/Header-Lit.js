@@ -66,7 +66,7 @@ export class HeaderLit extends LitElement {
     @media (max-width: 768px) {
       .header {
         display: flex;
-        flex-direction: column; /* default: stacked for mobile */
+        flex-direction: column;
         gap: 0.5rem;
         margin-bottom: 1rem;
         margin-top: 2rem;
@@ -90,11 +90,12 @@ export class HeaderLit extends LitElement {
         font-size: 1.25rem;
         color: #6b7280;
         margin: 0;
+        text-align:center;
       }
 
       .header-actions {
         display: flex;
-        justify-content: center;   /* ✅ center by default (mobile) */
+        justify-content: center;
         align-items: center;
         gap: 1rem;
       }
