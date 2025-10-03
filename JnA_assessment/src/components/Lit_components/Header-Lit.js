@@ -26,23 +26,29 @@ export class HeaderLit extends LitElement {
     .header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
       margin-bottom: 1rem;
       margin-top: 2rem;
+    }
+
+    .header-text {
+      display: flex;
+      flex-direction: column;
     }
 
     .header-title {
       font-weight: 600;
       color: #1d4ed8;
-      margin: 0;
       font-size: 2rem;
+      margin: 0;
     }
 
     .header-subtitle {
       font-size: 1.25rem;
       color: #6b7280;
-      margin: 0;
+      margin: 2rem 0 0 0;
     }
+
 
     .header-actions {
       display: flex;
@@ -120,7 +126,7 @@ export class HeaderLit extends LitElement {
     return html`
       <div class="header">
         <!-- Left side -->
-        <div>
+        <div class="header-text">
           <h3 class="header-title">${this.title}</h3>
           <p class="header-subtitle">${this.subtitle}</p>
         </div>

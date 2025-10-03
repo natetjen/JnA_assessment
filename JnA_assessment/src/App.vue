@@ -58,7 +58,7 @@ const handleBookmark = (event) => {
       <!-- Filter buttons -->
         <!-- Reusable Filter component -->
         <!-- Vue format
-        <div class="filter_div d-flex flex-wrap mb-2">
+        <div class="filter_div d-flex flex-wrap mb-4">
           <Filter
             v-for="f in filterOptions"
             :key="f.id"
@@ -70,7 +70,7 @@ const handleBookmark = (event) => {
         -->
         <!-- Lit format -->
         <!-- force it to rerender upon new filter selection due to the weird behavior of the radio -->
-        <div class="filter_div_lit d-flex flex-wrap mb-3" :key="selected">
+        <div class="filter_div_lit d-flex flex-wrap mb-5" :key="selected">
         <filter-lit
           v-for="f in filterOptions"
           :key="f.id"
@@ -139,7 +139,7 @@ const handleBookmark = (event) => {
 }
 
 .wrap2 {
-  width: 95%;
+  width: 69.3%;
   max-width: 1500px;
 }
 
