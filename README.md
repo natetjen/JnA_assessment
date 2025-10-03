@@ -49,12 +49,6 @@ All reusable components are made using Lit
 ## Setup & Run
 ❗ **Important:** Make sure to use Node,js v22
 
-Displays:
-<img width="1628" height="835" alt="Screenshot 2025-10-03 at 1 48 33 AM" src="https://github.com/user-attachments/assets/a6645cab-b3c8-467a-aeed-a3da736d3ed7" />
-<img width="904" height="577" alt="Screenshot 2025-10-03 at 1 48 56 AM" src="https://github.com/user-attachments/assets/2f452c84-dfd4-4fe5-8e41-78a2b4f4b0c5" />
-<img width="1460" height="750" alt="Screenshot 2025-10-03 at 1 49 45 AM" src="https://github.com/user-attachments/assets/05584785-eda1-4b8c-bd74-6d0c5c945427" />
-<img width="506" height="871" alt="Screenshot 2025-10-03 at 1 54 32 AM" src="https://github.com/user-attachments/assets/4a6ed56f-9fd5-4ecd-a322-0a5435404cb3" />
-
 *How to run the application*
    ```bash
    git clone https://github.com/natetjen/JnA_assessment.git
@@ -66,6 +60,13 @@ Displays:
 *How to run the test*
   cd ./JnA_assessment/JnA_assessment
   npm run test
+```
+
+Displays:
+<img width="1628" height="835" alt="Screenshot 2025-10-03 at 1 48 33 AM" src="https://github.com/user-attachments/assets/a6645cab-b3c8-467a-aeed-a3da736d3ed7" />
+<img width="904" height="577" alt="Screenshot 2025-10-03 at 1 48 56 AM" src="https://github.com/user-attachments/assets/2f452c84-dfd4-4fe5-8e41-78a2b4f4b0c5" />
+<img width="1460" height="750" alt="Screenshot 2025-10-03 at 1 49 45 AM" src="https://github.com/user-attachments/assets/05584785-eda1-4b8c-bd74-6d0c5c945427" />
+<img width="506" height="871" alt="Screenshot 2025-10-03 at 1 54 32 AM" src="https://github.com/user-attachments/assets/4a6ed56f-9fd5-4ecd-a322-0a5435404cb3" />
 
 
 
