@@ -16,23 +16,40 @@ This project is a Vue 3 + Bootstrap application that displays a list of resource
 
 ## Bonus Features ✨
 
-- **Smooth Transitions:** Added animations when filtering cards for better user experience.
+- **Smooth Transitions:** Added animations when filtering cards and screen resizing for better user experience.
 - **Show More / Show Less:**
   - By default, only **6 cards** are shown.
   - Clicking **Show More** reveals all available cards in a scrollable list.
   - Selecting a **new filter** automatically resets the view back to **6 cards**, keeping the UI consistent.
 - **Dynamic UI / Responsive Layout:**
-  - The card grid adapts to smaller screen (however, mobile compatibility is not implemented)
+  - The card grid adapts to smaller screen and also compatible to mobile device.
 
 ## Tech Stack
 
 - [Vue 3](https://vuejs.org/)
 - [Bootstrap 5](https://getbootstrap.com/)
 - [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Vitest](https://vitest.dev/) (for testing)
+
+## About the Test
+This project uses Vitest for testing. Tests cover all reusable components and functionality:
+-Hover states for interactive buttons
+-Bookmark toggle behavior
+-Filter functionality (single-selection assumption)
+-Show More / Show Less functionality
+
+## About Reusable Components
+All reusable components are made using Lit
+
+## Assumptions
+-Data is mock data from mockData.js.
+-No backend/API integration is required.
+-Only one filter can be selected at a time.
 
 ## Setup & Run
+❗ **Important:** Make sure to use Node,js v22
 
-1. Clone the repository:
+*How to run the application*
    ```bash
    git clone https://github.com/natetjen/JnA_assessment.git
    cd ./JnA_assessment/JnA_assessment
@@ -40,12 +57,9 @@ This project is a Vue 3 + Bootstrap application that displays a list of resource
    npm run dev
    (the application will run on http://localhost:5173/)
 
-
-  Assumptions
-
-Data is mock data from mockData.js.
-
-No backend/API integration is required.
+*How to run the test*
+  cd ./JnA_assessment/JnA_assessment
+  npm run test
 
 Displays:
 <img width="1531" height="876" alt="Screenshot 2025-10-02 at 4 05 39 AM" src="https://github.com/user-attachments/assets/bcd97627-a856-4d30-9482-98823a0f44ac" />

@@ -40,7 +40,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import defaultImage from '../assets/one.jpg'
+import defaultImage from '../../assets/one.jpg'
 
 defineProps({
   title: { type: String, default: 'Title' },
